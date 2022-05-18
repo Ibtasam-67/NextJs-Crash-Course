@@ -14,7 +14,7 @@ function MeetupItem(props) {
     <li className={classes.item}>
       <Card>
         <div className={classes.image}>
-          <Image src={props.image} alt="" />
+          <Image src={props.image} alt="" layout="fill" />
         </div>
         <div className={classes.content}>
           <h3>{props.title}</h3>

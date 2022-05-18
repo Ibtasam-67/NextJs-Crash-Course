@@ -4,7 +4,9 @@ const nextConfig = {
   images:{
     domains:[
       "www.istockphoto.com",
-      "upload.wikimedia.org"
+      "upload.wikimedia.org",
+      "luminogics.com",
+      "techcrunch.com"
     ]
   }
   

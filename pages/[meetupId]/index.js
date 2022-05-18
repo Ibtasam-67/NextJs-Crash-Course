@@ -5,7 +5,7 @@ function MeetupDetails(props) {
   return (
     <>
       <MeetupDetail
-        image={props.meetupData.image}
+        // image={props.meetupData.image}
         title={props.meetupData.title}
         address={props.meetupData.address}
         description={props.meetupData.description}
@@ -50,7 +50,7 @@ export async function getStaticProps(context) {
     props: {
       meetupData: {
         id: selectedMeetup._id.toString(),
-        image:selectedMeetup.image,
+        // image:selectedMeetup.image,
         title: selectedMeetup.title,
         address: selectedMeetup.address,
         description: selectedMeetup.description,

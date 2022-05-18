@@ -3,7 +3,8 @@ const nextConfig = {
   
   images:{
     domains:[
-      "www.istockphoto.com"
+      "www.istockphoto.com",
+      "upload.wikimedia.org"
     ]
   }
   

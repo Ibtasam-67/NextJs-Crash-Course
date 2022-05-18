@@ -8,13 +8,18 @@ function MeetupItem(props) {
 
   const showDetailsHandler = () => {
     router.push("/" + props.id);
-    console.log(props.title);
   };
   return (
     <li className={classes.item}>
       <Card>
-        <div className={classes.image}>
-          <Image src={props.image} alt="" layout="fill" />
+        <div>
+          <Image
+            src={props.image}
+            alt={props.title}
+            layout="responsive"
+            width={"0px"}
+            height={"0px"}
+          />
         </div>
         <div className={classes.content}>
           <h3>{props.title}</h3>

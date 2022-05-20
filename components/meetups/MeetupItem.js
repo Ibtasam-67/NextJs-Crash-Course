@@ -5,7 +5,6 @@ import Image from "next/image";
 
 function MeetupItem(props) {
   const router = useRouter();
-
   const showDetailsHandler = () => {
     router.push("/" + props.id);
   };

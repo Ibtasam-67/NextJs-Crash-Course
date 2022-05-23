@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image"
 
-const ProductScreen = ({ data, apiGet }) => {
+const ProductScreen = ({ data }) => {
   return (
     <>
       {data.products.map((item) => {

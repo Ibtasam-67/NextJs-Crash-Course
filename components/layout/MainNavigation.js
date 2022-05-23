@@ -10,6 +10,7 @@ function MainNavigation() {
           All Meetups
         </Link>
         <Link href="/new-meetup">Add New Meetup</Link>
+        <Link href="/products">Products</Link>
       </div>
     </div>
   );

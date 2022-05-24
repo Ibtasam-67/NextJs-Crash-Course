@@ -1,4 +1,4 @@
-import MainNavigation from './MainNavigation';
+import MainNavigation from '../common/mainNavigation/MainNavigation'
 import classes from './Layout.module.css';
 
 function Layout(props) {
@@ -11,3 +11,32 @@ function Layout(props) {
 }
 
 export default Layout;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

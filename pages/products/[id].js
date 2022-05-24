@@ -1,4 +1,4 @@
-import ProductDetailScreen from "../../components/products/ProductDetailScreen";
+import ProductDetailScreen from "../../components/productsDetail/ProductDetailScreen";
 import Head from "next/head";
 
 export const getStaticPaths = async () => {

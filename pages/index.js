@@ -1,4 +1,4 @@
-import MeetupList from "../components/meetups/MeetupList";
+import MeetupList from "../components/meetups/meetupList/MeetupList";
 import { MongoClient } from "mongodb";
 import Head from "next/head";
 
